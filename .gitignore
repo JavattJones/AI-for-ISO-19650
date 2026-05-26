@@ -1,0 +1,29 @@
+# Documentos del proyecto auditado (no versionar — pueden contener datos sensibles)
+proyecto/
+documentos/
+inputs/
+*.pdf
+*.docx
+*.xlsx
+*.dwg
+*.rvt
+*.nwf
+*.nwd
+*.ifc
+
+# Outputs generados (no versionar, se regeneran)
+SALIDA_1_trazabilidad.md
+SALIDA_2_informe.md
+progress/index_artifacts.md
+progress/analysis_*.md
+progress/gaps_nc_pc.md
+progress/impl_*.md
+progress/review_*.md
+
+# Claude Code — configuración local (no versionar)
+.claude/settings.local.json
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.tmp
